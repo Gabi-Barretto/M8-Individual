@@ -15,24 +15,13 @@ Antes de prosseguir com a instalação e configuração do ROS 2 e Webots, certi
 ### 3. Instalação do ROS 2
 A instalação do ROS 2 deve ser feita seguindo os passos abaixo:
 
-1. **Configure seu computador para aceitar software de packages.ros.org:**
-   ```sh
-   sudo apt update && sudo apt install curl gnupg2 lsb-release
-   curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
-   ```
-
-2. **Adicione o repositório do ROS 2 ao seu sistema:**
-   ```sh
-   sudo sh -c 'echo "deb [arch=amd64,arm64] http://packages.ros.org/ros2/ubuntu `lsb_release -cs` main" > /etc/apt/sources.list.d/ros2-latest.list'
-   ```
-
-3. **Instale o ROS 2 Foxy Fitzroy:**
+1. **Instale o ROS 2 Foxy Fitzroy:**
    ```sh
    sudo apt update
-   sudo apt install ros-foxy-desktop
+   sudo apt install ros-humble-desktop
    ```
 
-4. **Ambiente de Desenvolvimento:**
+2. **Ambiente de Desenvolvimento:**
    - **Instale as dependências para a construção de pacotes:**
      ```sh
      sudo apt install python3-rosdep python3-colcon-common-extensions python3-flake8 python3-pytest-cov python3-ros-testing
@@ -52,6 +41,7 @@ cd ~/meu_workspace
 colcon build
 source ~/meu_workspace/install/setup.bash
 ```
+Aqui infelizmente o Ubuntu resolveu nao colaborar mas os passos dos tutoriais foram seguidos meticulosamente. Ele funcionou o colcon build e o source foi ao arquivo zhs certo porem o ros não identificava o pacote.
 
 ### 5. Instalação do Webots
 O Webots é um simulador de robôs de código aberto que será usado para simular o robô controlado por "meu_pacote". Siga as instruções oficiais para instalar o Webots no seu sistema.
@@ -69,9 +59,7 @@ Você precisará configurar o `nav2_simple_commander` para enviar comandos ao ro
 Após a configuração do ambiente e a construção do pacote, você pode executar os nós ROS 2 utilizando os comandos `ros2 run`.
 
 ### 10. Solução de Problemas Comuns
-Inclua uma seção de solução de problemas comuns para ajudar os usuários a resolver problemas que possam surgir durante a configuração ou execução do pacote.
+Todas as ferramentas utilizadas estão depreciadas, então são esperados diversos bugs e inacessibilidade por conta do ux das ferramentas, espere ter muitos problemas ao desenvolver com elas. 
 
 ### 11. Conclusão e Trabalhos Futuros
-Finalize com uma conclusão sobre o projeto e sugestões para desenvolvimentos futuros, como a adição de mais funcionalidades ou a integração com outros sistemas e sensores.
-
-**Nota:** Esta é uma estrutura básica de documentação. Cada seção deve ser expandida com detalhes específicos, comandos precisos, e instruções passo a passo conforme necessário para o seu projeto específico.
+O mini projeto foi capaz de englobar os dois scripts essênciais para locomover o robô via um launcher das coordenadas a outro script que calcula sua movimentação e publica essas ao robô.
