@@ -27,13 +27,3 @@ Este script pode ser utilizado em diversos cenários, como:
 
 ## Requisitos
 - Python 3.x
-
-## Contribuições
-Contribuições para a melhoria do script ou sua aplicabilidade em diferentes contextos são bem-vindas. Por favor, siga as diretrizes de contribuição do projeto.
-
-## Licença
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
-
----
-
-Este `README` fornece uma visão geral acadêmica e prática do script, adequada para estudantes universitários e pesquisadores que possam se beneficiar do uso de expressões regulares para a extração de informações específicas de conjuntos de dados textuais.
