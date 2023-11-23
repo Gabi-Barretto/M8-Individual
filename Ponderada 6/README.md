@@ -20,11 +20,11 @@ Este repositório contém a implementação de um perceptron, um dos fundamentos
 ### Execução
 Para executar o perceptron, utilize o seguinte comando no terminal:
 ```
-python perceptron_oficial.py
+python perceptron.py
 ```
 
 ### Exemplos de Uso
-No arquivo `perceptron_oficial.py`, você encontrará exemplos de como inicializar, treinar e testar o perceptron com seus próprios dados.
+No arquivo `perceptro.py`, você encontrará exemplos de como inicializar, treinar e testar o perceptron com seus próprios dados.
 
 ## Limitações: O Caso da Porta XOR
 Uma limitação importante do perceptron é sua incapacidade de resolver operações lógicas não lineares, como a XOR (exclusive or). Isso ocorre porque a função de decisão de um perceptron é linear e a XOR, por natureza, requer a separação dos dados de forma não linear. Essa limitação ilustra a necessidade de estruturas mais complexas, como redes neurais multicamadas, para resolver tais problemas.
