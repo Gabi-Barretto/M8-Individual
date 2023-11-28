@@ -25,5 +25,9 @@ Este script pode ser utilizado em diversos cenários, como:
 2. Execute o script em um ambiente Python com a mensagem de texto contendo as coordenadas como input.
 3. A função `extrair_coordenadas` pode ser importada e utilizada em outros scripts Python como um módulo.
 
+## Vídeo Demonstrativo
+
+
+
 ## Requisitos
 - Python 3.x
