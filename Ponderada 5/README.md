@@ -1,7 +1,7 @@
-# Documentação do Projeto Ollama
+# Documentação do Projeto Chatbot com OpenAI e RAG
 
 ## Visão Geral
-O `ollama.py` é um script Python para interagir com uma API de geração de texto, utilizando as bibliotecas `requests`, `json` e `gradio`.
+O `chatbot.py` é um script Python para interagir com uma API de geração de texto, utilizando as bibliotecas `requests`, `json` e `gradio`.
 
 ## Dependências
 - Python 3.x
