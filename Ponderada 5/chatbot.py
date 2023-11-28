@@ -11,7 +11,7 @@ def obter_chave_api():
         raise Exception("O arquivo api_key.txt não foi encontrado. Certifique-se de criar o arquivo e adicionar sua chave de API.")
 
 # Configure sua chave de API da OpenAI aqui
-openai.api_key = "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"
+openai.api_key = obter_chave_api()
 
 # Função para obter a resposta do chatbot
 def chatbot_responder(pergunta):
