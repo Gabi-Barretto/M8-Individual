@@ -27,10 +27,8 @@ Este script pode ser utilizado em diversos cenários, como:
 
 ## Vídeo Demonstrativo
 
-<video width="540" height="360" controls>
-  <source src="https://github.com/Gabi-Barretto/M8-Individual/blob/main/Ponderada%203/ponderada3.mp4" type="video/mp4">
-  Seu navegador não suporta vídeos.
-</video>
+<iframe src="https://drive.google.com/file/d/18DNTkCq7C4jPWPHU38SN4EaW4fEJ83ae/preview" width="640" height="480"></iframe>
+
 
 ## Requisitos
 - Python 3.x
