@@ -4,14 +4,14 @@ import openai
 # Função para obter a chave de API da OpenAI a partir do arquivo
 def obter_chave_api():
     try:
-        with open('api_key.txt', 'r') as arquivo:
+        with open('api.txt', 'r') as arquivo:
             chave_api = arquivo.read().strip()
         return chave_api
     except FileNotFoundError:
         raise Exception("O arquivo api_key.txt não foi encontrado. Certifique-se de criar o arquivo e adicionar sua chave de API.")
 
 # Configure sua chave de API da OpenAI aqui
-openai.api_key = obter_chave_api()
+openai.api_key = "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"
 
 # Função para obter a resposta do chatbot
 def chatbot_responder(pergunta):

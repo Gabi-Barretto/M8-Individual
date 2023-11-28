@@ -30,7 +30,9 @@ Este script pode ser utilizado em diversos cenários, como:
 
 ### Vídeo Demonstrativo
 
-Tambem disponível no repositório!
+[Vídeo no Drive](https://drive.google.com/file/d/18DNTkCq7C4jPWPHU38SN4EaW4fEJ83ae/view?usp=sharing)
 
-[Vídeo no Drive](https://drive.google.com/file/d/18DNTkCq7C4jPWPHU38SN4EaW4fEJ83ae/view?usp=drive_link)
+
+Tambem disponível no [repositório](https://github.com/Gabi-Barretto/M8-Individual/blob/main/Ponderada%203/M%C3%ADdia/ponderada3.mp4)!
+
 
