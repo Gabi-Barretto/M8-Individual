@@ -3,7 +3,7 @@
 
 ## Introdução
 
-O `TTS_e_STT` é um projeto inovador que explora as capacidades de Conversão de Texto em Fala (Text-To-Speech, TTS) e Reconhecimento de Fala (Speech-To-Text, STT), utilizando as bibliotecas `whisper`, `bark`. Este projeto visa demonstrar como essas tecnologias podem ser integradas para criar um ciclo de transcrição de áudio para texto e, em seguida, síntese de áudio a partir desse texto. Disponível no [Collab](https://colab.research.google.com/drive/18NIPIXtY68bwLFqgMF13zHe4SjvfdyKN?usp=sharing).
+O `TTS_e_STT` é um projeto inovador que explora as capacidades de Conversão de Texto em Fala (Text-To-Speech, TTS) e Reconhecimento de Fala (Speech-To-Text, STT), utilizando as bibliotecas `whisper`, `bark`. Este projeto visa demonstrar como essas tecnologias podem ser integradas para criar um ciclo de transcrição de áudio para texto e, em seguida, síntese de áudio a partir desse texto, com um passo utilizando o proprio whisper para tradução do input para inglês. Disponível no [Collab](https://colab.research.google.com/drive/18NIPIXtY68bwLFqgMF13zHe4SjvfdyKN?usp=sharing), que apresentou melhor funcionamento perante sua utilização no Windows.
 
 ## Detalhamento do Código
 
@@ -35,7 +35,7 @@ O `TTS_e_STT` é um projeto inovador que explora as capacidades de Conversão de
 Para usar este notebook:
 
 1. **Instalar Dependências**: Assegure-se de que as bibliotecas `whisper`, `bark` estejam instaladas.
-2. **Executar o Script Principal**: Execute o script `main` fornecendo o caminho do arquivo de áudio quando solicitado.
+2. **Executar o Script Principal**: Execute o script `main` fornecendo o caminho do arquivo de áudio quando solicitado na UI (Terminal).
 3. **Visualizar Resultados**: O texto transcrito será salvo em um arquivo e o áudio gerado será salvo em um arquivo WAV.
 
 ## Conclusão
