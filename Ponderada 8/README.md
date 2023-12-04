@@ -9,7 +9,7 @@ O `TTS_e_STT` é um projeto inovador que explora as capacidades de Conversão de
 
 ### 1. Reconhecimento de Fala (STT) com `whisper`
 
-- A biblioteca `whisper` é utilizada para transcrever áudio em texto. A função `transcribe_audio` carrega o modelo `whisper` e realiza a transcrição.
+- A biblioteca `whisper` é utilizada para transcrever áudio em texto. A função `transcribe_audio` carrega o modelo `whisper` e realiza a transcrição e tradução.
 
 ### 2. Conversão de Texto em Fala (TTS) com `bark`
 
@@ -30,7 +30,12 @@ Para usar este notebook:
 
 1. **Instalar Dependências**: Assegure-se de que as bibliotecas `whisper`, `bark` estejam instaladas.
 2. **Executar o Script Principal**: Execute o script `main` fornecendo o caminho do arquivo de áudio e o nome para salvar quando solicitado na UI (Terminal).
-3. **Visualizar Resultados**: O texto transcrito será salvo em um arquivo e o áudio gerado será salvo em um arquivo WAV.
+
+![Alt text](./Midia/Img/image.png)
+
+3. **Visualizar Resultados**: O texto transcrito será salvo em um arquivo .txt e o áudio gerado será salvo em um arquivo WAV.
+
+![Alt text](./Midia/Img/image2.png)
 
 ## Conclusão
 
